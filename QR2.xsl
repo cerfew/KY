@@ -7,7 +7,7 @@
 			<xsl:for-each select="MarketBasketInfo/CustomerInfo/PersonalInfo">
 
 					<p>
-						<xsl:value-of select="name"/>
+						<xsl:value-of select="Name"/>
 					</p>
 
 			</xsl:for-each>
