@@ -5,7 +5,7 @@
 		<head><title>1st Assignment</title></head>
 			<body>
 				<p>
-					<xsl:value-of select="MarketBasketInfo/CustomerInfo/PersonalInfo/Name"/>
+					<xsl:value-of select="MarketBasketInfo/CustomerInfo/PersonalInfo/Name"/> /
 					<xsl:value-of select="MarketBasketInfo/CustomerInfo/PersonalInfo/Phone"/>
 				</p>
 			</body>
