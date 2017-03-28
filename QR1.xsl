@@ -6,7 +6,8 @@
 			<body>
 				<p>
 					<xsl:value-of select="MarketBasketInfo/CustomerInfo/PersonalInfo/Name"/>
-				</p>
+				        <xsl:value-of select="MarketBasketInfo/CustomerInfo/PersonalInfo/Phone"/>			
+                                </p>
 			</body>
 	</html>
 </xsl:template>
