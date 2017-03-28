@@ -5,11 +5,11 @@
 		<head><title>1st Assignment</title></head>
 			<body>
 			<xsl:for-each select="MarketBasketInfo/PersonalInfo">
-				<xsl:sort select="name">
+
 					<p>
 						<xsl:value-of select="name"/>
 					</p>
-				</xsl:sort>
+
 			</xsl:for-each>
 			</body>
 	</html>
