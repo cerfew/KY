@@ -4,7 +4,7 @@
 	<html>
 		<head><title>1st Assignment</title></head>
 			<body>
-			<xsl:for-each select="MarketBasketInfo/PersonalInfo">
+			<xsl:for-each select="MarketBasketInfo/CustomerInfo/PersonalInfo">
 
 					<p>
 						<xsl:value-of select="name"/>
