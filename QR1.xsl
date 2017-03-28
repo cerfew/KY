@@ -4,10 +4,11 @@
 	<html>
 		<head><title>1st Assignment</title></head>
 			<body>
-				<p>
-					<xsl:value-of select="MarketBasketInfo/CustomerInfo/PersonalInfo/Name"/> /
-					<xsl:value-of select="MarketBasketInfo/CustomerInfo/PersonalInfo/Phone"/>
-				</p>
+				<xsl:for-each select="MarketBasketInfo/CustomerInfo">
+					<p>
+						<xsl:value-of select="PersonalInfo/Name"/>
+					</p>
+				</xsl:for-each>
 			</body>
 	</html>
 </xsl:template>
