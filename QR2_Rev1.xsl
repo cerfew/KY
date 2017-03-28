@@ -4,10 +4,10 @@
 	<html>
 		<head><title>1st Assignment</title></head>
 			<body>
-			<xsl:for-each select="MarketBasketInfo/CustomerInfo">
-				<xsl:sort select="PersonalInfo/name">
+			<xsl:for-each select="MarketBasketInfo/customerInfo">
+				<xsl:sort select="PersonalInfo/Name">
 					<p>
-						<xsl:value-of select="name"/>
+						<xsl:value-of select="Name"/>
 					</p>
 				</xsl:sort>
 			</xsl:for-each>
