@@ -5,7 +5,7 @@
 		<head><title>1st Assignment</title></head>
 			<body>
 				<xsl:for-each select="MarketBasketInfo/CustomerInfo/PersonalInfo">
-					<xsl:if test="Age &gt; 45">
+					<xsl:if test="Age &gt; 35">
 						<p>
 							<xsl:value-of select="Name"/>
 						</p>
