@@ -7,7 +7,7 @@
 				<xsl:for-each select="MarketBasketInfo/CustomerInfo">
 					<xsl:if test="PersonalInfo/Name='WanChul'">
 						<p>
-							<xsl:value-of select="VisitInfo/Visit[Date='20170211']/ProductList/Product/ProductName"/>
+							<xsl:value-of select="VisitInfo/Visit[Date='20170211']/ProductList/Product/child::ProductName"/>
 						</p>
 					</xsl:if>
 				</xsl:for-each>
